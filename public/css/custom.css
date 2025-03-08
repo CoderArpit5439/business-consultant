@@ -915,7 +915,7 @@ header.main-header .header-sticky.active{
 	padding: 16px;
 	display: flex;
 	align-items: center;
-	width: 280px;
+	width: 286px;
 	animation: experienceobject 3s infinite linear alternate;
 	overflow: hidden;
 }
