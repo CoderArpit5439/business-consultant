@@ -72,7 +72,7 @@ const HeroWhat = () => {
                                 {/* <!-- Experience Counter Box Start --> */}
                                 <div class="experience-counter-box">
                                     <div class="experience-counter-no">
-                                        <h2><span class="counter">01</span>+</h2>
+                                        <h2><span class="counter">10</span>+</h2>
                                     </div>
                                     <div class="experience-counter-content">
                                         <p>Years of experience in Business Consulting</p>

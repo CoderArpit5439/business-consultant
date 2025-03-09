@@ -46,7 +46,7 @@ const HeroFact = () => {
                                   </div>
   
                                   <div class="fact-counter-box-content">
-                                      <h2><span class="counter">25</span>+</h2>
+                                      <h2><span class="counter">10</span>+</h2>
                                       <p>Years of experience</p>
                                   </div>
                               </div>

@@ -75,7 +75,7 @@ const Home = () => {
   
                           {/* <!-- Company Experience Box Start --> */}
                           <div class="company-experience">
-                              <h3><span class="counter">01</span>+</h3>
+                              <h3><span class="counter">10</span>+</h3>
                               <p>Years of experience in Business consulting</p>
                           </div>
                           {/* <!-- Company Experience Box End -->                        */}
