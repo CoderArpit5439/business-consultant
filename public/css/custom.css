@@ -48,8 +48,8 @@
 	--primary-color			: #040303;
 	--secondary-color		: #F4F4F4;
 	--text-color			: #808080;
-	--accent-color			: #00CC61;
-	--dark-color			: #004050;
+	--accent-color			:#5374a4;
+	--dark-color			: #234e86;
 	--white-color			: #FFFFFF;
 	--divider-color			: #F3F3F3;
 	--dark-divider-color	: #FFFFFF1A;
@@ -6521,7 +6521,7 @@ footer.main-footer{
 
 	.footer-contact-box{
 		justify-content: left;
-		gap: 20px;
+		/* gap: 20px; */
 	}
 
 	.footer-contact-item{

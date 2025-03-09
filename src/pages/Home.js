@@ -1,27 +1,17 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import Header from '../layout/Header';
+import HeroService from '../component/HeroService';
+import HeroWhy from '../component/HeroWhy';
+import HeroWhat from '../component/HeroWhat';
+import Footer from '../layout/Footer';
 
 const Home = () => {
     const navigate = useNavigate();
   return (
     <>
     {/* // <!-- Header Start --> */}
-    <header class="main-header">
-      <div class="header-sticky">
-        <nav class="navbar navbar-expand-lg">
-          <div class="container">
-            {/* <!-- Logo Start --> */}
-            <a class="navbar-brand" href="index-2.html">
-              <img src="images/logozfg.png" alt="Logo" height="80px" width="auto" style={{borderRadius:"100%"}} />
-            </a>
-            {/* <!-- Logo End --> */}
-  
-            <div class="navbar-toggle"></div>
-          </div>
-        </nav>
-        <div class="responsive-menu"></div>
-      </div>
-    </header>
+<Header />
     {/* <!-- Header End --> */}
   
       {/* <!-- Hero Section Start --> */}
@@ -35,7 +25,10 @@ const Home = () => {
                           <div class="section-title dark-section">
                               <h3 class="wow fadeInUp">welcome to zero five growth</h3>
                               <h1 class="text-anime-style-2" data-cursor="-opaque"><span>Expert</span> MSME Business Consulting</h1>
-                              <p class="wow fadeInUp" data-wow-delay="0.2s">We Act as an Associate to Boost your Revenue and minimise Cost</p>
+                              <p class="wow fadeInUp" data-wow-delay="0.2s">
+                              Every year, businesses fail due to poor planning and decision-making, while giants thrive on expert advice. With tailored strategies and market insights, consultants help you grow revenue and cut costs. Let us act as your CEO to secure success and avoid costly mistakes.
+                              
+                              </p>
                           </div>
                           {/* <!-- Section Title End --> */}
   
@@ -99,11 +92,11 @@ const Home = () => {
       {/* <!-- About Us Section End --> */}
   
       {/* <!-- Our Services Section Start --> */}
-    
+    <HeroService />
       {/* <!-- Our Services Section End --> */}
   
       {/* <!-- Why Choose Us Section Start --> */}
-    
+    <HeroWhy />
       {/* <!-- Why Choose Us Section End --> */}
   
       {/* <!-- Our Feature Section Stat --> */}
@@ -115,6 +108,8 @@ const Home = () => {
       {/* <!-- Some Fact Section End --> */}
   
       {/* <!-- What We Do Section Start --> */}
+
+      <HeroWhat />
      
       {/* <!-- What We Do Section End --> */}
   
@@ -139,7 +134,7 @@ const Home = () => {
       {/* <!-- Our Blog Section End  --> */}
   
       {/* <!-- Footer Section Start --> */}
-      
+      <Footer />
       {/* <!-- Footer Section End --> */}
       </>
   )

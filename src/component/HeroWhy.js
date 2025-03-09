@@ -12,7 +12,8 @@ const HeroWhy = () => {
                           {/* <!-- Section Title Start --> */}
                           <div class="section-title">
                               <h3 class="wow fadeInUp">why choose us</h3>
-                              <h2 class="text-anime-style-2" data-cursor="-opaque">Why trust us <span>our finances</span></h2>
+                              <h2 class="text-anime-style-2" data-cursor="-opaque">Overcoming MSME  <span>Business Challenges</span></h2>
+                                      <p>Small businesses face many challenges that can slow their growth. We help turn these challenges into opportunities with the right solutions and support.</p>
                           </div>
                           {/* <!-- Section Title End --> */}
   
@@ -25,9 +26,12 @@ const HeroWhy = () => {
                                   </div>
   
                                   <div class="why-choose-box-content">
-                                      <h3>financial strategies</h3>
-                                      <p>Tailored plans to meet your unique financial needs and goals.</p>
-                                  </div>
+                                      <h3>Marketing Challenges</h3>
+                                      <h3>Lead Generation</h3>
+                                      <h3>Technology Integration</h3>
+                                      <h3>Lack Of Skilled People</h3>
+                                      <h3>Website Management</h3>
+                                      </div>
                               </div>
                               {/* <!-- Why Choose Box End --> */}
   
@@ -38,8 +42,10 @@ const HeroWhy = () => {
                                   </div>
   
                                   <div class="why-choose-box-content">
-                                      <h3>tax optimization</h3>
-                                      <p>Tailored plans to meet your unique financial needs and goals.</p>
+                                      <h3>Social Media Management</h3>
+                                      <h3>Market Competition</h3>
+                                      <h3>Networking</h3>
+                                      <h3>Finance</h3>
                                   </div>
                               </div>
                               {/* <!-- Why Choose Box End --> */}
@@ -49,8 +55,8 @@ const HeroWhy = () => {
                           {/* <!-- Why Choose List Start --> */}
                           <div class="why-choose-list wow fadeInUp" data-wow-delay="0.4s">
                               <ul>
-                                  <li>strategic financial planning</li>
-                                  <li>expert investment advisory</li>
+                                  <li>strategic planning</li>
+                                  <li>expert advisory</li>
                               </ul>
                           </div>
                           {/* <!-- Why Choose List End --> */}
