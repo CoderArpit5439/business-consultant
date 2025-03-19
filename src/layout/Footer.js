@@ -80,7 +80,7 @@ const Footer = () => {
                           <div class="footer-logo">
                               {/* <img src="images/footer-logo.svg" alt=""/> */}
                               <a class="navbar-brand" onClick={() => navigate('/')}>
-                                <img src="images/logozfg.png" alt="Logo" height="auto" width="auto" style={{ borderRadius: "100%" }} />
+                                <img src="images/logozfg.svg" alt="Logo" height="auto" width="auto" style={{ borderRadius: "100%" }} />
                             </a>
                           </div>
                           {/* <!-- Footer Logo End --> */}

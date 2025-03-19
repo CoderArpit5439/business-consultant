@@ -6525,7 +6525,7 @@ footer.main-footer{
 	}
 
 	.footer-contact-item{
-		width: calc(50% - 10px);
+		width: calc(51% - 10px);
 	}
 
 	.footer-contact-item::before{

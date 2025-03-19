@@ -3,112 +3,83 @@ import Header from '../layout/Header'
 import Footer from '../layout/Footer'
 
 const Contact = () => {
+    
+  const openWhatsApp = () => {
+    const phoneNumber = "+919516510364"; // Replace with your WhatsApp number (include country code)
+    const message = `Hello, I would like to ask about your services.`;
+    const encodedMessage = encodeURIComponent(message);
+    
+    window.open(`https://wa.me/${phoneNumber}?text=${encodedMessage}`, "_blank");
+  };
     return (
 
         <div>
             <Header />
-            <div class="about-us">
+            <div class="page-contact-us">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-6">
-                            {/* <!-- About Us Images Start --> */}
-                            <div class="about-us-images">
-                                {/* <!-- About Image 1 Start --> */}
-                                <div class="about-img-1">
-                                    <figure class="image-anime reveal" style={{transform: "translate(0px, 0px)", opacity: "1", visibility: "inherit"}}>
-                                        <img src="images/about-img-1.jpg" alt="" style={{transform: "translate(0px, 0px)"}} />
+                        <div class="col-lg-4 col-md-6">
+                            <div class="contact-info-item wow fadeInUp" style={{ visibility: "visible", animationName: "fadeInUp" }}>
+                                <div class="contact-info-img">
+                                    <figure class="image-anime">
+                                        <img src="https://img.freepik.com/free-photo/young-successful-businessman-speaking-phone-office-background_176420-5288.jpg?t=st=1742366888~exp=1742370488~hmac=0611ddb6598cb180a820910c70f3c4d8b69dfbb19abdf2af8674a97e0b4e30cf&w=996" alt="" />
                                     </figure>
                                 </div>
-                                {/* <!-- About Image 1 End --> */}
-
-                                {/* <!-- About Image 2 Start --> */}
-                                <div class="about-img-2">
-                                    <figure class="image-anime reveal" style={{transform: "translate(0px, 0px)", opacity: "1", visibility: "inherit"}}>
-                                        <img src="images/about-img-2.jpg" alt="" style={{transform: "translate(0px, 0px)"}} />
-                                    </figure>
-                                </div>
-                                {/* <!-- About Image 2 End --> */}
-
-                                {/* <!-- Contact Circle Start --> */}
-                                <div class="contact-circle">
-                                    <img src="images/contact-us-img.svg" alt="" />
-                                </div>
-                                {/* <!-- Contact Circle End --> */}
-                            </div>
-                            {/* <!-- About Us Images End --> */}
-                        </div>
-
-                        <div class="col-lg-6">
-                            {/* <!-- About Us Content Start --> */}
-                            <div class="about-us-content">
-                                {/* <!-- About Content body Start --> */}
-                                <div class="about-content-body">
-                                    <div class="row align-items-center">
-                                        <div class="col-md-6">
-                                            {/* <!-- About Content Info Start --> */}
-                                            <div class="about-content-info">
-                                                {/* <!-- About Goal Box Start --> */}
-                                                {/* <div class="about-goal-box wow fadeInUp" data-wow-delay="0.4s" style={{visibility: "visible", animationDelay: "0.4s", animationName: "fadeInUp"}}>
-                                                    <div class="icon-box">
-                                                        <img src="images/icon-financial-strategies.svg" alt="" />
-                                                    </div>
-
-                                                    <div class="about-goal-box-content">
-                                                        <h3>financial strategies</h3>
-                                                        <p>Tailored plans to meet your unique financial needs and goals.</p>
-                                                    </div>
-                                                </div> */}
-                                                {/* <!-- About Goal Box End --> */}
-
-                                                {/* <!-- About Contact Box Start --> */}
-                                                <div class="about-contact-box wow fadeInUp" data-wow-delay="0.6s" style={{visibility: "visible", animationDelay: "0.6s",animationName: "fadeInUp"}}>
-                                                    <div class="icon-box">
-                                                        <img src="images/icon-phone.svg" alt="" />
-                                                    </div>
-
-                                                    <div class="about-contact-content">
-                                                        <p><a>+91 9516510364</a></p>
-                                                        <p><a>+91 9109293391</a></p>
-                                                    </div>
-                                                </div>
-                                                {/* <!-- About Contact Box End --> */}
-                                            </div>
-                                            {/* <!-- About Content Info End --> */}
-                                        </div>
-
-                                        <div class="col-md-6">
-                                            {/* <!-- About Author Box Start --> */}
-                                            <div class="about-author-box wow fadeInUp" data-wow-delay="0.4s" style={{visibility: "visible", animationDelay: "0.4s", animationName: "fadeInUp"}}>
-                                                {/* <!-- About Info Box Start --> */}
-                                                {/* <div class="about-info-box">
-                                                    <figure class="image-anime reveal" style={{transform: "translate(0px, 0px)", opacity: "1", visibility: "inherit"}}>
-                                                        <img src="images/author-1.jpg" alt="" style={{transform: "translate(0px, 0px)"}} />
-                                                    </figure>
-
-                                                    <div class="about-author-content">
-                                                        <h3>Sarah T.</h3>
-                                                        <p>Co. founder</p>
-                                                    </div>
-                                                </div> */}
-                                                {/* <!-- About Info Box End --> */}
-
-                                                {/* <!-- About Info List Start --> */}
-                                                <div class="about-info-list">
-                                                    <ul>
-                                                        <li>risk management</li>
-                                                        <li>communication</li>
-                                                        <li>24/7 support</li>
-                                                    </ul>
-                                                </div>
-                                                {/* <!-- About Info List End --> */}
-                                            </div>
-                                            {/* <!-- About Author Box End --> */}
-                                        </div>
+                                <div class="contact-info-body">
+                                    <div class="icon-box">
+                                        <img src="images/icon-phone.svg" alt="" />
+                                    </div>
+                                    <div class="contact-info-content">
+                                        <h3>call us any time!</h3>
+                                        <p>+91 9516510364</p>
                                     </div>
                                 </div>
-                                {/* <!-- About Content body End --> */}
                             </div>
-                            {/* <!-- About Us Content End --> */}
+                        </div>
+
+                        <div class="col-lg-4 col-md-6">
+                            <div class="contact-info-item wow fadeInUp" data-wow-delay="0.2s" style={{ visibility: "visible", animationDelay: "0.2s", animationName: "fadeInUp" }}>
+                                <div class="contact-info-img">
+                                    <figure class="image-anime">
+                                        <img src="https://img.freepik.com/free-photo/e-mail-global-communications-connection-social-networking-concept_53876-134026.jpg?t=st=1742366790~exp=1742370390~hmac=e51062991276d483d4ff937ae769fc2cd6a45c3f1ca41657c33a27a6b9a5b470&w=826" alt="" />
+                                    </figure>
+                                </div>
+                                <div class="contact-info-body">
+                                    <div class="icon-box">
+                                        <img src="images/icon-mail.svg" alt="" />
+                                    </div>
+                                    <div class="contact-info-content">
+                                        <h3>send us e-mail</h3>
+                                        <p>support@zerofivegrowth.com</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-4 col-md-6">
+                            <div class="contact-info-item wow fadeInUp" data-wow-delay="0.4s" style={{ visibility: "visible", animationDelay: "0.4s", animationName: "fadeInUp" }}>
+                                <div class="contact-info-img">
+                                    <figure class="image-anime">
+                                        <img src="https://img.freepik.com/free-photo/side-view-hand-holding-smartphone_23-2149764138.jpg?t=st=1742366992~exp=1742370592~hmac=e49ad83e5a30ae847c50526065de7f2a712b09c2b616a837a080c6984dfe57b3&w=996" alt="" />
+                                    </figure>
+                                </div>
+                                <div class="contact-info-body">
+                                    <div class="icon-box">
+                                        <img src="images/icon-location.svg" alt="" />
+                                    </div>
+                                    <div class="contact-info-content">
+                                        <h3>office address</h3>
+                                        <p>Bengaluru, KA</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-12 text-center">
+                            <button type="button" onClick={openWhatsApp} class="btn-default">chat on whats app</button>
+                            <div id="msgSubmit" class="h3 hidden"></div>
                         </div>
                     </div>
                 </div>

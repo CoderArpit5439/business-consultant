@@ -11,7 +11,7 @@ const Header = () => {
                         <div class="container">
                             {/* <!-- Logo Start --> */}
                             <a class="navbar-brand" onClick={() => navigate('/')}>
-                                <img src="images/logozfg.png" alt="Logo" height="80px" width="auto" style={{ borderRadius: "100%" }} />
+                                <img src="images/logozfg.svg" alt="Logo" height="80px" width="auto" style={{ borderRadius: "100%" }} />
                             </a>
                             {/* <!-- Logo End --> */}
                             {/* <!-- Main menu start  --> */}
